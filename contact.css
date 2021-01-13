@@ -1,0 +1,79 @@
+main {
+    margin: 60px 300px;
+}
+
+.name-form {
+    width: 300px;
+}
+
+.email {
+    width: 300px;
+}
+
+textarea {
+    width: 750px;
+    height: 300px;
+}
+
+.button {
+    width: 10em;
+    height: 2em;
+}
+
+@media (max-width: 1024px) {
+    .name-form {
+        width: 30em;
+    }
+    
+    .email {
+        width: 30em;
+    }
+    
+    textarea {
+        width: 30em;
+        height: 25em;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        margin: 0;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    .name-form {
+        width: 15em;
+    }
+    
+    .email {
+        width: 15em;
+    }
+    
+    textarea {
+        width: 40em;
+        height: 20em;
+    }
+}
+
+@media (max-width: 425px) {
+    label {
+        font-size: 12px;
+        display: block;
+    }
+
+    .name-form {
+        width: 10em;
+    }
+    
+    .email {
+        width: 10em;
+    }
+    
+    textarea {
+        width: 20em;
+        height: 20em;
+    }
+}

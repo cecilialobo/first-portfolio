@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: gray;
+    background-color: #F5EFED;
+}
+header {
+    height: 40px;
+    text-align: right;
+    padding: 10px 20px 0 20px;
+    text-decoration: none;
+}
+
+header:hover {
+    background-color: #EFD9CE;
+}
+
+.logo-header {
+    float: left;
+    display: inline;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: #DE6854;
+}
+
+.aboutMe-link, .contact-link, .travel-link {
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.title-index {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 60px;
+    color: #DE6854;
+}
+
+.text-index {
+    font-weight: 200;
+    font-size: 30px;
+    color: #DE6854;
+}
+
+main {
+    padding: 40px 30px 0 30px; 
+}
+
+.text {
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 40%;
+    float: left;
+}
+
+.photo {
+    border-radius: 15%;
+    width: 35%;
+    float: right; 
+    height: 500px;
+    padding: 20px;
+    margin-right: 100px;
+    border: solid #EFD9CE;
+}
+
+.fa-github {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.fa-linkedin-in {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.footer {
+    display: block;
+    position: absolute;
+    font-size: 15px;
+    margin-top: 45%;
+    margin-left: 45%;
+    font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+    .aboutMe-link, .contact-link, .travel-link {
+        font-size: 14px;
+    }
+
+    .photo {
+        display: block;
+        height: 50%;
+        width: 40%;
+        margin-right: 26%;
+    }
+
+    .text {
+        margin-top: 0;
+        float: none;
+        width: 70%;
+        margin: 0;
+        padding-left: 15%;
+    }
+
+    .title-index {
+        font-size: 40px;
+    }
+    
+    .text-index {
+        font-size: 20px;
+    }
+    .footer {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo-header {
+        font-size: 14px;
+    }
+
+    .title-index {
+        font-size: 35px;
+    }
+
+    .photo {
+        height: 70%;
+        width: 60%;
+        border: none;
+        margin-right: 10%;
+    }
+
+
+}
